@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{color: #353434;}
+a:active{color: white;}
+
+header{
+    background-color: #353434;
+    height: 80px;
+    text-align: center;
+}
+header img{
+    margin-top: 10.6px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #9C8C9F;
+}
+nav ul{
+    width: 1100px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a{
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    margin-top: 26px;
+    display: block;
+    color: white;
+}
+.tit{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/s3_tit.png);
+    background-size: cover;
+}
+.txtset01{
+    width: 1003px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+.txtset02{
+    width: 1003px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 25px;
+    letter-spacing: -0.4px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+}
+.txt01{
+    margin-top: 210px;
+}
+.txt03{
+    margin-top: 52px;
+}
+.txt04{
+    margin-top: 75px;
+}
+.txt05{
+    margin-top: 59px;
+}
+.txt06{
+    margin-top: 52px;
+}
+.txt07{
+    margin-top: 79px;
+}
+.txt08{
+    margin-top: 59px;
+}
+footer{
+    width: 1100;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9C8C9F;
+    margin-top: 857px;
+}
+footer img{
+    width: 104.36px;
+    height: 29.15px;
+    margin-top: 5px;
+    margin-left: 49px;
+}
+.copyright{
+    width: 392px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300px;
+    letter-spacing: -0.4px;
+    text-align: right;
+    margin-left: 656px;
+}
